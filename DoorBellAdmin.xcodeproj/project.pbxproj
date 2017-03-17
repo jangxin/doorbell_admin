@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC427AA41E7BEA9D008E8FC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AA31E7BEA9D008E8FC0 /* main.m */; };
+		EC427AA71E7BEA9D008E8FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AA61E7BEA9D008E8FC0 /* AppDelegate.m */; };
+		EC427AAA1E7BEA9D008E8FC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AA91E7BEA9D008E8FC0 /* ViewController.m */; };
+		EC427AAD1E7BEA9D008E8FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC427AAB1E7BEA9D008E8FC0 /* Main.storyboard */; };
+		EC427AB01E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC427AAE1E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodeld */; };
+		EC427AB21E7BEA9D008E8FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC427AB11E7BEA9D008E8FC0 /* Assets.xcassets */; };
+		EC427AB51E7BEA9D008E8FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC427AB31E7BEA9D008E8FC0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC427A9F1E7BEA9D008E8FC0 /* DoorBellAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorBellAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC427AA31E7BEA9D008E8FC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC427AA51E7BEA9D008E8FC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC427AA61E7BEA9D008E8FC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC427AA81E7BEA9D008E8FC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC427AA91E7BEA9D008E8FC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC427AAC1E7BEA9D008E8FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC427AAF1E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoorBellAdmin.xcdatamodel; sourceTree = "<group>"; };
+		EC427AB11E7BEA9D008E8FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC427AB41E7BEA9D008E8FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC427AB61E7BEA9D008E8FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC427A9C1E7BEA9D008E8FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC427A961E7BEA9D008E8FC0 = {
+			isa = PBXGroup;
+			children = (
+				EC427AA11E7BEA9D008E8FC0 /* DoorBellAdmin */,
+				EC427AA01E7BEA9D008E8FC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC427AA01E7BEA9D008E8FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC427A9F1E7BEA9D008E8FC0 /* DoorBellAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC427AA11E7BEA9D008E8FC0 /* DoorBellAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				EC427AA51E7BEA9D008E8FC0 /* AppDelegate.h */,
+				EC427AA61E7BEA9D008E8FC0 /* AppDelegate.m */,
+				EC427AA81E7BEA9D008E8FC0 /* ViewController.h */,
+				EC427AA91E7BEA9D008E8FC0 /* ViewController.m */,
+				EC427AAB1E7BEA9D008E8FC0 /* Main.storyboard */,
+				EC427AB11E7BEA9D008E8FC0 /* Assets.xcassets */,
+				EC427AB31E7BEA9D008E8FC0 /* LaunchScreen.storyboard */,
+				EC427AB61E7BEA9D008E8FC0 /* Info.plist */,
+				EC427AAE1E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodeld */,
+				EC427AA21E7BEA9D008E8FC0 /* Supporting Files */,
+			);
+			path = DoorBellAdmin;
+			sourceTree = "<group>";
+		};
+		EC427AA21E7BEA9D008E8FC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC427AA31E7BEA9D008E8FC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC427A9E1E7BEA9D008E8FC0 /* DoorBellAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC427AB91E7BEA9D008E8FC0 /* Build configuration list for PBXNativeTarget "DoorBellAdmin" */;
+			buildPhases = (
+				EC427A9B1E7BEA9D008E8FC0 /* Sources */,
+				EC427A9C1E7BEA9D008E8FC0 /* Frameworks */,
+				EC427A9D1E7BEA9D008E8FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorBellAdmin;
+			productName = DoorBellAdmin;
+			productReference = EC427A9F1E7BEA9D008E8FC0 /* DoorBellAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC427A971E7BEA9D008E8FC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DoorBell;
+				TargetAttributes = {
+					EC427A9E1E7BEA9D008E8FC0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC427A9A1E7BEA9D008E8FC0 /* Build configuration list for PBXProject "DoorBellAdmin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC427A961E7BEA9D008E8FC0;
+			productRefGroup = EC427AA01E7BEA9D008E8FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC427A9E1E7BEA9D008E8FC0 /* DoorBellAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC427A9D1E7BEA9D008E8FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC427AB51E7BEA9D008E8FC0 /* LaunchScreen.storyboard in Resources */,
+				EC427AB21E7BEA9D008E8FC0 /* Assets.xcassets in Resources */,
+				EC427AAD1E7BEA9D008E8FC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC427A9B1E7BEA9D008E8FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC427AAA1E7BEA9D008E8FC0 /* ViewController.m in Sources */,
+				EC427AA71E7BEA9D008E8FC0 /* AppDelegate.m in Sources */,
+				EC427AB01E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodeld in Sources */,
+				EC427AA41E7BEA9D008E8FC0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC427AAB1E7BEA9D008E8FC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC427AAC1E7BEA9D008E8FC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC427AB31E7BEA9D008E8FC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC427AB41E7BEA9D008E8FC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC427AB71E7BEA9D008E8FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EC427AB81E7BEA9D008E8FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC427ABA1E7BEA9D008E8FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoorBellAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = are.DoorBellAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC427ABB1E7BEA9D008E8FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoorBellAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = are.DoorBellAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC427A9A1E7BEA9D008E8FC0 /* Build configuration list for PBXProject "DoorBellAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC427AB71E7BEA9D008E8FC0 /* Debug */,
+				EC427AB81E7BEA9D008E8FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC427AB91E7BEA9D008E8FC0 /* Build configuration list for PBXNativeTarget "DoorBellAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC427ABA1E7BEA9D008E8FC0 /* Debug */,
+				EC427ABB1E7BEA9D008E8FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC427AAE1E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC427AAF1E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodel */,
+			);
+			currentVersion = EC427AAF1E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodel */;
+			path = DoorBellAdmin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC427A971E7BEA9D008E8FC0 /* Project object */;
+}
