@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface CompanyCollectionCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *mImgLogo;
+@property (weak, nonatomic) IBOutlet UILabel *mLblTitle;
+@property (weak, nonatomic) IBOutlet UIImageView *mImgMark;
 
 @end

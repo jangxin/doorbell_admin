@@ -9,5 +9,9 @@
 #import <JSONModel/JSONModel.h>
 
 @interface CompanyAdminModel : JSONModel
-
+@property NSString<Optional> *mCompanyLogoURL;
+@property NSString<Optional> *mCompanyName;
+@property NSString<Optional> *mCompanyID;
+@property NSString<Optional> *mCompanyPhoneNumber;
+@property NSString<Optional> *mComanyAddress;
 @end

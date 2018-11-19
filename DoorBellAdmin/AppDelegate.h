@@ -8,11 +8,24 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "IQKeyboardManager.h"
+#import "ApiManager.h"
+#import "SharedRef.h"
+#import "UserModel.h"
+#import "FrontPageVC.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+#import "LoginVC.h"
+#import "Utilities.h"
+#import <CoreLocation/CoreLocation.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@import Firebase;
+@import FirebaseMessaging;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property CLLocationManager *locationManager;
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 
 - (void)saveContext;

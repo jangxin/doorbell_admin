@@ -9,5 +9,9 @@
 #import "AdminModel.h"
 
 @implementation AdminModel
-
+-(id)init
+{
+    self =[super init];
+    return self;
+}
 @end

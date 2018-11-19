@@ -9,5 +9,8 @@
 #import "SuperAdminModel.h"
 
 @implementation SuperAdminModel
-
+@property NSString<Optional> *mSuperAdminID;
+@property NSString<Optional> *mSpuerAdminEmail;
+@property NSString<Optional> *mSuperAdminPhoneNumber;
+@property NSString<Optional> *mSuperAdminPhotoURL;
 @end

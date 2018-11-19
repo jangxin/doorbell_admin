@@ -9,5 +9,9 @@
 #import "VisiterModel.h"
 
 @implementation VisiterModel
-
+-(id)init
+{
+    self =[super init];
+    return self;
+}
 @end

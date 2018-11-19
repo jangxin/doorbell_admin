@@ -9,5 +9,9 @@
 #import "EmployModel.h"
 
 @implementation EmployModel
-
+-(id)init
+{
+    self =[super init];
+    return self;
+}
 @end

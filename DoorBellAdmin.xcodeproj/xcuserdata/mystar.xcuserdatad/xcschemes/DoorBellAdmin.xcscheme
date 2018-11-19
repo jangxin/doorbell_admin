@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0820"
-   version = "1.3">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EC427A9E1E7BEA9D008E8FC0"
-               BuildableName = "DoorBellAdmin.app"
+               BuildableName = "DoorBell.app"
                BlueprintName = "DoorBellAdmin"
                ReferencedContainer = "container:DoorBellAdmin.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC427A9E1E7BEA9D008E8FC0"
-            BuildableName = "DoorBellAdmin.app"
+            BuildableName = "DoorBell.app"
             BlueprintName = "DoorBellAdmin"
             ReferencedContainer = "container:DoorBellAdmin.xcodeproj">
          </BuildableReference>
@@ -56,13 +56,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC427A9E1E7BEA9D008E8FC0"
-            BuildableName = "DoorBellAdmin.app"
+            BuildableName = "DoorBell.app"
             BlueprintName = "DoorBellAdmin"
             ReferencedContainer = "container:DoorBellAdmin.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
+      <LocationScenarioReference
+         identifier = "Hong Kong, China"
+         referenceType = "1">
+      </LocationScenarioReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -75,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EC427A9E1E7BEA9D008E8FC0"
-            BuildableName = "DoorBellAdmin.app"
+            BuildableName = "DoorBell.app"
             BlueprintName = "DoorBellAdmin"
             ReferencedContainer = "container:DoorBellAdmin.xcodeproj">
          </BuildableReference>

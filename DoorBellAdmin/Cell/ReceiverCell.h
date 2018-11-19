@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ReceiverCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *mImgReceiverPIC;
 
+@property (weak, nonatomic) IBOutlet UIImageView *mImgMark;
+@property (weak, nonatomic) IBOutlet UILabel *mLblReceiverName;
 @end

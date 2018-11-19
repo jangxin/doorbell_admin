@@ -7,27 +7,118 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB9062D03472DEB29B43D3E2 /* libPods-DoorBellAdmin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA949600A48ABF8EB1430B5 /* libPods-DoorBellAdmin.a */; };
 		EC427AA41E7BEA9D008E8FC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AA31E7BEA9D008E8FC0 /* main.m */; };
 		EC427AA71E7BEA9D008E8FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AA61E7BEA9D008E8FC0 /* AppDelegate.m */; };
-		EC427AAA1E7BEA9D008E8FC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AA91E7BEA9D008E8FC0 /* ViewController.m */; };
 		EC427AAD1E7BEA9D008E8FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC427AAB1E7BEA9D008E8FC0 /* Main.storyboard */; };
 		EC427AB01E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC427AAE1E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodeld */; };
 		EC427AB21E7BEA9D008E8FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC427AB11E7BEA9D008E8FC0 /* Assets.xcassets */; };
 		EC427AB51E7BEA9D008E8FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC427AB31E7BEA9D008E8FC0 /* LaunchScreen.storyboard */; };
+		EC427ADE1E7BF325008E8FC0 /* CompanyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427ADD1E7BF325008E8FC0 /* CompanyModel.m */; };
+		EC427AE31E7BF34A008E8FC0 /* EmployModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AE21E7BF34A008E8FC0 /* EmployModel.m */; };
+		EC427AF01E7BF4DE008E8FC0 /* FrontPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AEF1E7BF4DE008E8FC0 /* FrontPageVC.m */; };
+		EC427AF31E7BF655008E8FC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC427AF21E7BF655008E8FC0 /* GoogleService-Info.plist */; };
+		EC427AF71E7BF69E008E8FC0 /* VisiterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AF61E7BF69E008E8FC0 /* VisiterModel.m */; };
+		EC427AFA1E7C23A0008E8FC0 /* AdminModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AF91E7C23A0008E8FC0 /* AdminModel.m */; };
+		EC427AFE1E7C3A68008E8FC0 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EC427AFD1E7C3A68008E8FC0 /* Utilities.m */; };
+		EC47F40D1EC0DD9C00FDCD73 /* WifiGetInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC47F40C1EC0DD9C00FDCD73 /* WifiGetInfoVC.m */; };
+		EC47F4101EC0E08A00FDCD73 /* ConfirmVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC47F40F1EC0E08A00FDCD73 /* ConfirmVC.m */; };
+		EC49EEED1EBF05BF006EE09A /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49EEEA1EBF05BF006EE09A /* CHTCollectionViewWaterfallLayout.m */; };
+		EC49EEEE1EBF05BF006EE09A /* CollectionCustomViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49EEEC1EBF05BF006EE09A /* CollectionCustomViewFlowLayout.m */; };
+		EC49EEF21EBF0744006EE09A /* CompanyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49EEF11EBF0744006EE09A /* CompanyCollectionCell.m */; };
+		EC49EEF61EBF133D006EE09A /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49EEF51EBF133D006EE09A /* ApiManager.m */; };
+		EC49EEFA1EBF1A57006EE09A /* SharedRef.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49EEF91EBF1A57006EE09A /* SharedRef.m */; };
+		EC4B98BF1EC1BCD800CF12F6 /* CompleteRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4B98BE1EC1BCD800CF12F6 /* CompleteRegisterVC.m */; };
+		EC64CFB51EC02F770010F2FE /* VisiterRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64CFB41EC02F770010F2FE /* VisiterRegisterVC.m */; };
+		EC64CFB91EC03F980010F2FE /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64CFB81EC03F980010F2FE /* UserModel.m */; };
+		EC64CFC71EC053D70010F2FE /* NumericKeypad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC64CFBC1EC053D70010F2FE /* NumericKeypad.xib */; };
+		EC64CFC81EC053D70010F2FE /* NumericKeypadTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64CFBF1EC053D70010F2FE /* NumericKeypadTextField.m */; };
+		EC64CFC91EC053D70010F2FE /* NumericKeypadView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64CFC11EC053D70010F2FE /* NumericKeypadView.m */; };
+		EC64CFCA1EC053D70010F2FE /* NumericKeypadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64CFC31EC053D70010F2FE /* NumericKeypadViewController.m */; };
+		EC64CFCB1EC053D70010F2FE /* highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = EC64CFC51EC053D70010F2FE /* highlight.png */; };
+		EC64CFCE1EC054E00010F2FE /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = EC64CFCD1EC054E00010F2FE /* normal.png */; };
+		EC64CFD71EC059E80010F2FE /* VisisterShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64CFD61EC059E80010F2FE /* VisisterShowVC.m */; };
+		EC64CFDA1EC0647A0010F2FE /* FindReceiverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64CFD91EC0647A0010F2FE /* FindReceiverVC.m */; };
+		EC64CFDD1EC068D90010F2FE /* ReceiverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC64CFDC1EC068D90010F2FE /* ReceiverCell.m */; };
+		EC9CAB441F0E203700753977 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9CAB431F0E203700753977 /* CoreLocation.framework */; };
+		ECAF1B231EFA8EC200F16A1D /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF1B221EFA8EC200F16A1D /* LoginVC.m */; };
+		ECAF1B271EFA99D400F16A1D /* AppSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF1B261EFA99D400F16A1D /* AppSettingModel.m */; };
+		ECB27B501F0BD47E002B17F3 /* CodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB27B4F1F0BD47E002B17F3 /* CodeCell.m */; };
+		ECB27B541F0BE16D002B17F3 /* CountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECB27B531F0BE16D002B17F3 /* CountryPicker.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC427A9F1E7BEA9D008E8FC0 /* DoorBellAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorBellAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0590BDBC00D7B47B1BF87DBF /* Pods-DoorBellAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorBellAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoorBellAdmin/Pods-DoorBellAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		4DA949600A48ABF8EB1430B5 /* libPods-DoorBellAdmin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DoorBellAdmin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC427A9F1E7BEA9D008E8FC0 /* DoorBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC427AA31E7BEA9D008E8FC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC427AA51E7BEA9D008E8FC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC427AA61E7BEA9D008E8FC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC427AA81E7BEA9D008E8FC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC427AA91E7BEA9D008E8FC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC427AAC1E7BEA9D008E8FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC427AAF1E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoorBellAdmin.xcdatamodel; sourceTree = "<group>"; };
 		EC427AB11E7BEA9D008E8FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC427AB41E7BEA9D008E8FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC427AB61E7BEA9D008E8FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC427ACE1E7BF1AD008E8FC0 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = Macro/Constant.h; sourceTree = "<group>"; };
+		EC427ADC1E7BF325008E8FC0 /* CompanyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanyModel.h; path = Model/CompanyModel/CompanyModel.h; sourceTree = "<group>"; };
+		EC427ADD1E7BF325008E8FC0 /* CompanyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompanyModel.m; path = Model/CompanyModel/CompanyModel.m; sourceTree = "<group>"; };
+		EC427AE11E7BF34A008E8FC0 /* EmployModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployModel.h; path = Model/EmployModel/EmployModel.h; sourceTree = "<group>"; };
+		EC427AE21E7BF34A008E8FC0 /* EmployModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployModel.m; path = Model/EmployModel/EmployModel.m; sourceTree = "<group>"; };
+		EC427AEE1E7BF4DE008E8FC0 /* FrontPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrontPageVC.h; path = ViewControllers/FrontPageVC.h; sourceTree = "<group>"; };
+		EC427AEF1E7BF4DE008E8FC0 /* FrontPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrontPageVC.m; path = ViewControllers/FrontPageVC.m; sourceTree = "<group>"; };
+		EC427AF21E7BF655008E8FC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "FireBaseInfo/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC427AF51E7BF69E008E8FC0 /* VisiterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisiterModel.h; path = Model/VisiterModel/VisiterModel.h; sourceTree = "<group>"; };
+		EC427AF61E7BF69E008E8FC0 /* VisiterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VisiterModel.m; path = Model/VisiterModel/VisiterModel.m; sourceTree = "<group>"; };
+		EC427AF81E7C23A0008E8FC0 /* AdminModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdminModel.h; path = Model/AdminModel.h; sourceTree = "<group>"; };
+		EC427AF91E7C23A0008E8FC0 /* AdminModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdminModel.m; path = Model/AdminModel.m; sourceTree = "<group>"; };
+		EC427AFC1E7C3A68008E8FC0 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = Utilities/Utilities.h; sourceTree = "<group>"; };
+		EC427AFD1E7C3A68008E8FC0 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = Utilities/Utilities.m; sourceTree = "<group>"; };
+		EC47F40B1EC0DD9C00FDCD73 /* WifiGetInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WifiGetInfoVC.h; path = ViewControllers/WifiGetInfoVC.h; sourceTree = "<group>"; };
+		EC47F40C1EC0DD9C00FDCD73 /* WifiGetInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WifiGetInfoVC.m; path = ViewControllers/WifiGetInfoVC.m; sourceTree = "<group>"; };
+		EC47F40E1EC0E08A00FDCD73 /* ConfirmVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmVC.h; path = ViewControllers/ConfirmVC.h; sourceTree = "<group>"; };
+		EC47F40F1EC0E08A00FDCD73 /* ConfirmVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmVC.m; path = ViewControllers/ConfirmVC.m; sourceTree = "<group>"; };
+		EC49EEE91EBF05BF006EE09A /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		EC49EEEA1EBF05BF006EE09A /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		EC49EEEB1EBF05BF006EE09A /* CollectionCustomViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCustomViewFlowLayout.h; sourceTree = "<group>"; };
+		EC49EEEC1EBF05BF006EE09A /* CollectionCustomViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCustomViewFlowLayout.m; sourceTree = "<group>"; };
+		EC49EEF01EBF0744006EE09A /* CompanyCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanyCollectionCell.h; path = Cell/CompanyCollectionCell.h; sourceTree = "<group>"; };
+		EC49EEF11EBF0744006EE09A /* CompanyCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompanyCollectionCell.m; path = Cell/CompanyCollectionCell.m; sourceTree = "<group>"; };
+		EC49EEF41EBF133D006EE09A /* ApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiManager.h; path = Manager/ApiManager/ApiManager.h; sourceTree = "<group>"; };
+		EC49EEF51EBF133D006EE09A /* ApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiManager.m; path = Manager/ApiManager/ApiManager.m; sourceTree = "<group>"; };
+		EC49EEF71EBF13B7006EE09A /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = Utilities/Header.h; sourceTree = "<group>"; };
+		EC49EEF81EBF1A57006EE09A /* SharedRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SharedRef.h; path = Utilities/SharedRef.h; sourceTree = "<group>"; };
+		EC49EEF91EBF1A57006EE09A /* SharedRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SharedRef.m; path = Utilities/SharedRef.m; sourceTree = "<group>"; };
+		EC4B98BD1EC1BCD800CF12F6 /* CompleteRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompleteRegisterVC.h; path = ViewControllers/CompleteRegisterVC.h; sourceTree = "<group>"; };
+		EC4B98BE1EC1BCD800CF12F6 /* CompleteRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompleteRegisterVC.m; path = ViewControllers/CompleteRegisterVC.m; sourceTree = "<group>"; };
+		EC64CFB31EC02F770010F2FE /* VisiterRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisiterRegisterVC.h; path = ViewControllers/VisiterRegisterVC.h; sourceTree = "<group>"; };
+		EC64CFB41EC02F770010F2FE /* VisiterRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VisiterRegisterVC.m; path = ViewControllers/VisiterRegisterVC.m; sourceTree = "<group>"; };
+		EC64CFB71EC03F980010F2FE /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = Model/UserModel.h; sourceTree = "<group>"; };
+		EC64CFB81EC03F980010F2FE /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = Model/UserModel.m; sourceTree = "<group>"; };
+		EC64CFBC1EC053D70010F2FE /* NumericKeypad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumericKeypad.xib; sourceTree = "<group>"; };
+		EC64CFBD1EC053D70010F2FE /* NumericKeypadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericKeypadDelegate.h; sourceTree = "<group>"; };
+		EC64CFBE1EC053D70010F2FE /* NumericKeypadTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericKeypadTextField.h; sourceTree = "<group>"; };
+		EC64CFBF1EC053D70010F2FE /* NumericKeypadTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericKeypadTextField.m; sourceTree = "<group>"; };
+		EC64CFC01EC053D70010F2FE /* NumericKeypadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericKeypadView.h; sourceTree = "<group>"; };
+		EC64CFC11EC053D70010F2FE /* NumericKeypadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericKeypadView.m; sourceTree = "<group>"; };
+		EC64CFC21EC053D70010F2FE /* NumericKeypadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericKeypadViewController.h; sourceTree = "<group>"; };
+		EC64CFC31EC053D70010F2FE /* NumericKeypadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericKeypadViewController.m; sourceTree = "<group>"; };
+		EC64CFC51EC053D70010F2FE /* highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlight.png; sourceTree = "<group>"; };
+		EC64CFCD1EC054E00010F2FE /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		EC64CFD51EC059E80010F2FE /* VisisterShowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisisterShowVC.h; path = ViewControllers/VisisterShowVC.h; sourceTree = "<group>"; };
+		EC64CFD61EC059E80010F2FE /* VisisterShowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VisisterShowVC.m; path = ViewControllers/VisisterShowVC.m; sourceTree = "<group>"; };
+		EC64CFD81EC0647A0010F2FE /* FindReceiverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FindReceiverVC.h; path = ViewControllers/FindReceiverVC.h; sourceTree = "<group>"; };
+		EC64CFD91EC0647A0010F2FE /* FindReceiverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FindReceiverVC.m; path = ViewControllers/FindReceiverVC.m; sourceTree = "<group>"; };
+		EC64CFDB1EC068D90010F2FE /* ReceiverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReceiverCell.h; path = Cell/ReceiverCell.h; sourceTree = "<group>"; };
+		EC64CFDC1EC068D90010F2FE /* ReceiverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReceiverCell.m; path = Cell/ReceiverCell.m; sourceTree = "<group>"; };
+		EC9CAB431F0E203700753977 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ECAF1B211EFA8EC200F16A1D /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVC.h; path = ViewControllers/LoginVC.h; sourceTree = "<group>"; };
+		ECAF1B221EFA8EC200F16A1D /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVC.m; path = ViewControllers/LoginVC.m; sourceTree = "<group>"; };
+		ECAF1B251EFA99D400F16A1D /* AppSettingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppSettingModel.h; path = Model/AppSettingModel/AppSettingModel.h; sourceTree = "<group>"; };
+		ECAF1B261EFA99D400F16A1D /* AppSettingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppSettingModel.m; path = Model/AppSettingModel/AppSettingModel.m; sourceTree = "<group>"; };
+		ECB27B4E1F0BD47E002B17F3 /* CodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeCell.h; path = Cell/CodeCell.h; sourceTree = "<group>"; };
+		ECB27B4F1F0BD47E002B17F3 /* CodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CodeCell.m; path = Cell/CodeCell.m; sourceTree = "<group>"; };
+		ECB27B531F0BE16D002B17F3 /* CountryPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CountryPicker.bundle; sourceTree = "<group>"; };
+		F78F06237F2DA012F7C221DB /* Pods-DoorBellAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorBellAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoorBellAdmin/Pods-DoorBellAdmin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,24 +126,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9CAB441F0E203700753977 /* CoreLocation.framework in Frameworks */,
+				DB9062D03472DEB29B43D3E2 /* libPods-DoorBellAdmin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		756D7A6514E9B296BC65C591 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC9CAB431F0E203700753977 /* CoreLocation.framework */,
+				4DA949600A48ABF8EB1430B5 /* libPods-DoorBellAdmin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8BD1A96B04FA098D8349491 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F78F06237F2DA012F7C221DB /* Pods-DoorBellAdmin.debug.xcconfig */,
+				0590BDBC00D7B47B1BF87DBF /* Pods-DoorBellAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EC427A961E7BEA9D008E8FC0 = {
 			isa = PBXGroup;
 			children = (
 				EC427AA11E7BEA9D008E8FC0 /* DoorBellAdmin */,
 				EC427AA01E7BEA9D008E8FC0 /* Products */,
+				A8BD1A96B04FA098D8349491 /* Pods */,
+				756D7A6514E9B296BC65C591 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		EC427AA01E7BEA9D008E8FC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC427A9F1E7BEA9D008E8FC0 /* DoorBellAdmin.app */,
+				EC427A9F1E7BEA9D008E8FC0 /* DoorBell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,10 +173,18 @@
 		EC427AA11E7BEA9D008E8FC0 /* DoorBellAdmin */ = {
 			isa = PBXGroup;
 			children = (
+				ECB27B511F0BE16D002B17F3 /* Resource */,
+				EC64CFBA1EC053D70010F2FE /* Vendor */,
+				EC49EEEF1EBF0718006EE09A /* Cells */,
+				EC49EEE81EBF05BF006EE09A /* CustomLayout */,
+				EC427AFB1E7C3A42008E8FC0 /* Utilities */,
+				EC427AF11E7BF646008E8FC0 /* FireBaseInfo */,
+				EC427AED1E7BF399008E8FC0 /* Model */,
+				EC427AD01E7BF1D2008E8FC0 /* Manager */,
+				EC427ACD1E7BF18B008E8FC0 /* Macro */,
+				EC427ACF1E7BF1B7008E8FC0 /* ViewControllers */,
 				EC427AA51E7BEA9D008E8FC0 /* AppDelegate.h */,
 				EC427AA61E7BEA9D008E8FC0 /* AppDelegate.m */,
-				EC427AA81E7BEA9D008E8FC0 /* ViewController.h */,
-				EC427AA91E7BEA9D008E8FC0 /* ViewController.m */,
 				EC427AAB1E7BEA9D008E8FC0 /* Main.storyboard */,
 				EC427AB11E7BEA9D008E8FC0 /* Assets.xcassets */,
 				EC427AB31E7BEA9D008E8FC0 /* LaunchScreen.storyboard */,
@@ -82,6 +203,214 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EC427ABC1E7BF087008E8FC0 /* CompanyModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC427ADC1E7BF325008E8FC0 /* CompanyModel.h */,
+				EC427ADD1E7BF325008E8FC0 /* CompanyModel.m */,
+			);
+			name = CompanyModel;
+			sourceTree = "<group>";
+		};
+		EC427ABD1E7BF092008E8FC0 /* EmployModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC427AE11E7BF34A008E8FC0 /* EmployModel.h */,
+				EC427AE21E7BF34A008E8FC0 /* EmployModel.m */,
+			);
+			name = EmployModel;
+			sourceTree = "<group>";
+		};
+		EC427ABE1E7BF0A1008E8FC0 /* AdminModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC427AF81E7C23A0008E8FC0 /* AdminModel.h */,
+				EC427AF91E7C23A0008E8FC0 /* AdminModel.m */,
+			);
+			name = AdminModel;
+			sourceTree = "<group>";
+		};
+		EC427ACD1E7BF18B008E8FC0 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				EC427ACE1E7BF1AD008E8FC0 /* Constant.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		EC427ACF1E7BF1B7008E8FC0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC427AEE1E7BF4DE008E8FC0 /* FrontPageVC.h */,
+				EC427AEF1E7BF4DE008E8FC0 /* FrontPageVC.m */,
+				EC64CFB31EC02F770010F2FE /* VisiterRegisterVC.h */,
+				EC64CFB41EC02F770010F2FE /* VisiterRegisterVC.m */,
+				EC64CFD51EC059E80010F2FE /* VisisterShowVC.h */,
+				EC64CFD61EC059E80010F2FE /* VisisterShowVC.m */,
+				EC64CFD81EC0647A0010F2FE /* FindReceiverVC.h */,
+				EC64CFD91EC0647A0010F2FE /* FindReceiverVC.m */,
+				EC47F40B1EC0DD9C00FDCD73 /* WifiGetInfoVC.h */,
+				EC47F40C1EC0DD9C00FDCD73 /* WifiGetInfoVC.m */,
+				EC47F40E1EC0E08A00FDCD73 /* ConfirmVC.h */,
+				EC47F40F1EC0E08A00FDCD73 /* ConfirmVC.m */,
+				EC4B98BD1EC1BCD800CF12F6 /* CompleteRegisterVC.h */,
+				EC4B98BE1EC1BCD800CF12F6 /* CompleteRegisterVC.m */,
+				ECAF1B211EFA8EC200F16A1D /* LoginVC.h */,
+				ECAF1B221EFA8EC200F16A1D /* LoginVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC427AD01E7BF1D2008E8FC0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EC49EEF31EBF1318006EE09A /* ApiManager */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		EC427AED1E7BF399008E8FC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF1B241EFA99A200F16A1D /* AppSettingModel */,
+				EC64CFB61EC03F770010F2FE /* UserModel */,
+				EC427AF41E7BF674008E8FC0 /* VisiterModel */,
+				EC427ABE1E7BF0A1008E8FC0 /* AdminModel */,
+				EC427ABD1E7BF092008E8FC0 /* EmployModel */,
+				EC427ABC1E7BF087008E8FC0 /* CompanyModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EC427AF11E7BF646008E8FC0 /* FireBaseInfo */ = {
+			isa = PBXGroup;
+			children = (
+				EC427AF21E7BF655008E8FC0 /* GoogleService-Info.plist */,
+			);
+			name = FireBaseInfo;
+			sourceTree = "<group>";
+		};
+		EC427AF41E7BF674008E8FC0 /* VisiterModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC427AF51E7BF69E008E8FC0 /* VisiterModel.h */,
+				EC427AF61E7BF69E008E8FC0 /* VisiterModel.m */,
+			);
+			name = VisiterModel;
+			sourceTree = "<group>";
+		};
+		EC427AFB1E7C3A42008E8FC0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EC49EEF81EBF1A57006EE09A /* SharedRef.h */,
+				EC49EEF91EBF1A57006EE09A /* SharedRef.m */,
+				EC427AFC1E7C3A68008E8FC0 /* Utilities.h */,
+				EC427AFD1E7C3A68008E8FC0 /* Utilities.m */,
+				EC49EEF71EBF13B7006EE09A /* Header.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		EC49EEE81EBF05BF006EE09A /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EC49EEE91EBF05BF006EE09A /* CHTCollectionViewWaterfallLayout.h */,
+				EC49EEEA1EBF05BF006EE09A /* CHTCollectionViewWaterfallLayout.m */,
+				EC49EEEB1EBF05BF006EE09A /* CollectionCustomViewFlowLayout.h */,
+				EC49EEEC1EBF05BF006EE09A /* CollectionCustomViewFlowLayout.m */,
+			);
+			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		EC49EEEF1EBF0718006EE09A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EC49EEF01EBF0744006EE09A /* CompanyCollectionCell.h */,
+				EC49EEF11EBF0744006EE09A /* CompanyCollectionCell.m */,
+				EC64CFDB1EC068D90010F2FE /* ReceiverCell.h */,
+				EC64CFDC1EC068D90010F2FE /* ReceiverCell.m */,
+				ECB27B4E1F0BD47E002B17F3 /* CodeCell.h */,
+				ECB27B4F1F0BD47E002B17F3 /* CodeCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		EC49EEF31EBF1318006EE09A /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC49EEF41EBF133D006EE09A /* ApiManager.h */,
+				EC49EEF51EBF133D006EE09A /* ApiManager.m */,
+			);
+			name = ApiManager;
+			sourceTree = "<group>";
+		};
+		EC64CFB61EC03F770010F2FE /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC64CFB71EC03F980010F2FE /* UserModel.h */,
+				EC64CFB81EC03F980010F2FE /* UserModel.m */,
+			);
+			name = UserModel;
+			sourceTree = "<group>";
+		};
+		EC64CFBA1EC053D70010F2FE /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				EC64CFBB1EC053D70010F2FE /* NumPadTextField */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		EC64CFBB1EC053D70010F2FE /* NumPadTextField */ = {
+			isa = PBXGroup;
+			children = (
+				EC64CFBC1EC053D70010F2FE /* NumericKeypad.xib */,
+				EC64CFBD1EC053D70010F2FE /* NumericKeypadDelegate.h */,
+				EC64CFBE1EC053D70010F2FE /* NumericKeypadTextField.h */,
+				EC64CFBF1EC053D70010F2FE /* NumericKeypadTextField.m */,
+				EC64CFC01EC053D70010F2FE /* NumericKeypadView.h */,
+				EC64CFC11EC053D70010F2FE /* NumericKeypadView.m */,
+				EC64CFC21EC053D70010F2FE /* NumericKeypadViewController.h */,
+				EC64CFC31EC053D70010F2FE /* NumericKeypadViewController.m */,
+				EC64CFC41EC053D70010F2FE /* Resource */,
+			);
+			path = NumPadTextField;
+			sourceTree = "<group>";
+		};
+		EC64CFC41EC053D70010F2FE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EC64CFCD1EC054E00010F2FE /* normal.png */,
+				EC64CFC51EC053D70010F2FE /* highlight.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		ECAF1B241EFA99A200F16A1D /* AppSettingModel */ = {
+			isa = PBXGroup;
+			children = (
+				ECAF1B251EFA99D400F16A1D /* AppSettingModel.h */,
+				ECAF1B261EFA99D400F16A1D /* AppSettingModel.m */,
+			);
+			name = AppSettingModel;
+			sourceTree = "<group>";
+		};
+		ECB27B511F0BE16D002B17F3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ECB27B521F0BE16D002B17F3 /* CountryPicker */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		ECB27B521F0BE16D002B17F3 /* CountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				ECB27B531F0BE16D002B17F3 /* CountryPicker.bundle */,
+			);
+			path = CountryPicker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +418,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC427AB91E7BEA9D008E8FC0 /* Build configuration list for PBXNativeTarget "DoorBellAdmin" */;
 			buildPhases = (
+				3103B8FA287D0C72837B69BD /* [CP] Check Pods Manifest.lock */,
 				EC427A9B1E7BEA9D008E8FC0 /* Sources */,
 				EC427A9C1E7BEA9D008E8FC0 /* Frameworks */,
 				EC427A9D1E7BEA9D008E8FC0 /* Resources */,
+				C09527EF2C6C6B783E9A2D22 /* [CP] Embed Pods Frameworks */,
+				740D42F057F49A01A844DEB1 /* [CP] Copy Pods Resources */,
+				EC99AECF1EC243F400198619 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -99,7 +432,7 @@
 			);
 			name = DoorBellAdmin;
 			productName = DoorBellAdmin;
-			productReference = EC427A9F1E7BEA9D008E8FC0 /* DoorBellAdmin.app */;
+			productReference = EC427A9F1E7BEA9D008E8FC0 /* DoorBell.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +446,8 @@
 				TargetAttributes = {
 					EC427A9E1E7BEA9D008E8FC0 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 69L8E5AA7R;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -140,23 +474,113 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC64CFCE1EC054E00010F2FE /* normal.png in Resources */,
+				EC64CFCB1EC053D70010F2FE /* highlight.png in Resources */,
 				EC427AB51E7BEA9D008E8FC0 /* LaunchScreen.storyboard in Resources */,
+				EC64CFC71EC053D70010F2FE /* NumericKeypad.xib in Resources */,
+				EC427AF31E7BF655008E8FC0 /* GoogleService-Info.plist in Resources */,
 				EC427AB21E7BEA9D008E8FC0 /* Assets.xcassets in Resources */,
+				ECB27B541F0BE16D002B17F3 /* CountryPicker.bundle in Resources */,
 				EC427AAD1E7BEA9D008E8FC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3103B8FA287D0C72837B69BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		740D42F057F49A01A844DEB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoorBellAdmin/Pods-DoorBellAdmin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C09527EF2C6C6B783E9A2D22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoorBellAdmin/Pods-DoorBellAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC99AECF1EC243F400198619 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 417d15b583521ddd8149ad7155af6ae71d940460 864d6b6678182203a6c6bce561c52f9c31f6d4dc0f7a7cb3336c3985b69637aa";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC427A9B1E7BEA9D008E8FC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC427AAA1E7BEA9D008E8FC0 /* ViewController.m in Sources */,
+				EC64CFC81EC053D70010F2FE /* NumericKeypadTextField.m in Sources */,
 				EC427AA71E7BEA9D008E8FC0 /* AppDelegate.m in Sources */,
+				EC64CFC91EC053D70010F2FE /* NumericKeypadView.m in Sources */,
 				EC427AB01E7BEA9D008E8FC0 /* DoorBellAdmin.xcdatamodeld in Sources */,
+				ECB27B501F0BD47E002B17F3 /* CodeCell.m in Sources */,
+				EC64CFDD1EC068D90010F2FE /* ReceiverCell.m in Sources */,
+				EC427AE31E7BF34A008E8FC0 /* EmployModel.m in Sources */,
+				EC64CFDA1EC0647A0010F2FE /* FindReceiverVC.m in Sources */,
+				EC49EEF21EBF0744006EE09A /* CompanyCollectionCell.m in Sources */,
+				EC64CFD71EC059E80010F2FE /* VisisterShowVC.m in Sources */,
+				EC64CFB51EC02F770010F2FE /* VisiterRegisterVC.m in Sources */,
+				EC427AFA1E7C23A0008E8FC0 /* AdminModel.m in Sources */,
+				EC64CFB91EC03F980010F2FE /* UserModel.m in Sources */,
+				EC49EEF61EBF133D006EE09A /* ApiManager.m in Sources */,
+				EC47F4101EC0E08A00FDCD73 /* ConfirmVC.m in Sources */,
+				ECAF1B231EFA8EC200F16A1D /* LoginVC.m in Sources */,
+				EC4B98BF1EC1BCD800CF12F6 /* CompleteRegisterVC.m in Sources */,
+				ECAF1B271EFA99D400F16A1D /* AppSettingModel.m in Sources */,
+				EC49EEEE1EBF05BF006EE09A /* CollectionCustomViewFlowLayout.m in Sources */,
+				EC427ADE1E7BF325008E8FC0 /* CompanyModel.m in Sources */,
+				EC427AFE1E7C3A68008E8FC0 /* Utilities.m in Sources */,
+				EC64CFCA1EC053D70010F2FE /* NumericKeypadViewController.m in Sources */,
+				EC49EEFA1EBF1A57006EE09A /* SharedRef.m in Sources */,
+				EC47F40D1EC0DD9C00FDCD73 /* WifiGetInfoVC.m in Sources */,
+				EC49EEED1EBF05BF006EE09A /* CHTCollectionViewWaterfallLayout.m in Sources */,
 				EC427AA41E7BEA9D008E8FC0 /* main.m in Sources */,
+				EC427AF71E7BF69E008E8FC0 /* VisiterModel.m in Sources */,
+				EC427AF01E7BF4DE008E8FC0 /* FrontPageVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +646,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -264,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -274,23 +698,35 @@
 		};
 		EC427ABA1E7BEA9D008E8FC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78F06237F2DA012F7C221DB /* Pods-DoorBellAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 69L8E5AA7R;
 				INFOPLIST_FILE = DoorBellAdmin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = are.DoorBellAdmin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = are.doorbell.app;
+				PRODUCT_NAME = DoorBell;
+				PROVISIONING_PROFILE = "434d1c97-a742-49a0-b987-e50f2b2c86d9";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_doorbell_dis;
 			};
 			name = Debug;
 		};
 		EC427ABB1E7BEA9D008E8FC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0590BDBC00D7B47B1BF87DBF /* Pods-DoorBellAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 69L8E5AA7R;
 				INFOPLIST_FILE = DoorBellAdmin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = are.DoorBellAdmin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = are.doorbell.app;
+				PRODUCT_NAME = DoorBell;
+				PROVISIONING_PROFILE = "434d1c97-a742-49a0-b987-e50f2b2c86d9";
+				PROVISIONING_PROFILE_SPECIFIER = iOS_doorbell_dis;
 			};
 			name = Release;
 		};
@@ -313,6 +749,7 @@
 				EC427ABB1E7BEA9D008E8FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,7 +7,13 @@
 //
 
 #import <JSONModel/JSONModel.h>
-
+#import "Constant.h"
 @interface EmployModel : JSONModel
-
+@property NSString<Optional> * _id;
+@property NSString<Optional> *username;
+@property NSString<Optional> *password;
+@property NSString<Optional> *realname;
+@property NSString<Optional> *phone;
+@property NSString<Optional> *status;
+@property NSString<Optional> *__v;
 @end

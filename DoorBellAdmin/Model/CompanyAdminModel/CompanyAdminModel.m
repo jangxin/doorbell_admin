@@ -9,5 +9,14 @@
 #import "CompanyAdminModel.h"
 
 @implementation CompanyAdminModel
-
+-(id)init
+{
+    self =[super init];
+    self.mCompanyPhoneNumber = @"";
+    self.mCompanyID= @"";
+    self.mCompanyName = @"";
+    self.mComanyAddress = @"";
+    self.mCompanyLogoURL = @"";
+    return self;
+}
 @end

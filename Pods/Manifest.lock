@@ -1,0 +1,124 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - DBCamera (2.4.1):
+    - GPUImage (~> 0.1)
+  - Fabric (1.6.11)
+  - Firebase (3.15.0):
+    - Firebase/Core (= 3.15.0)
+  - Firebase/Auth (3.15.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.1)
+  - Firebase/Core (3.15.0):
+    - FirebaseAnalytics (= 3.7.0)
+    - FirebaseCore (= 3.5.2)
+  - Firebase/Database (3.15.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 3.1.2)
+  - Firebase/Messaging (3.15.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.2)
+  - Firebase/Storage (3.15.0):
+    - Firebase/Core
+    - FirebaseStorage (= 1.1.0)
+  - FirebaseAnalytics (3.7.0):
+    - FirebaseCore (~> 3.5)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.5.2):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (3.1.2):
+    - FirebaseAnalytics (~> 3.7)
+  - FirebaseInstanceID (1.0.9)
+  - FirebaseMessaging (1.2.2):
+    - FirebaseAnalytics (~> 3.7)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (1.1.0):
+    - FirebaseAnalytics (~> 3.7)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GPUImage (0.1.7)
+  - GTMSessionFetcher/Core (1.1.9)
+  - IQKeyboardManager (4.0.8)
+  - JSONModel (1.7.0)
+  - LCLoadingHUD (1.0.6)
+  - MBProgressHUD (0.9.2)
+  - MMNumberKeyboard (0.1.5)
+  - Protobuf (3.2.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Toast (3.1.0)
+  - YYKeyboardManager (1.0.1)
+
+DEPENDENCIES:
+  - Bolts
+  - Crashlytics
+  - DBCamera (~> 2.4)
+  - Fabric
+  - Firebase
+  - Firebase/Auth
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - IQKeyboardManager
+  - JSONModel (~> 1.7)
+  - LCLoadingHUD
+  - MBProgressHUD (~> 0.9)
+  - MMNumberKeyboard
+  - SDWebImage (~> 3.7)
+  - Toast (~> 3.1.0)
+  - YYKeyboardManager
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  DBCamera: 7a4343a541e1264610f9f33176552b93170a843e
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  Firebase: 2b1cdfba1cda8589f32904a697cc753322bff9d8
+  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
+  FirebaseCore: a024587e43778508700af8c6b1209f7c4516ba02
+  FirebaseDatabase: 05c96d7b43a7368dc91c07791adb49683e1738d1
+  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
+  FirebaseMessaging: df8267f378580a24174ce7861233aa11d5c90109
+  FirebaseStorage: a5c55b23741a49a72af8f30f95b3bb5ddbeda12d
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  LCLoadingHUD: 8b20d4c10d47c3d4a64978cb966532788c183588
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MMNumberKeyboard: 12da79571d08aca21566534a74726c5469aed29a
+  Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  YYKeyboardManager: ff53d2e80d1808567a7f004028bd200d9469a89f
+
+PODFILE CHECKSUM: 0c293ab7ae9cbd56a2740455cc016674ae662efe
+
+COCOAPODS: 1.1.1
